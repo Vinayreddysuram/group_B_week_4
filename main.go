@@ -12,6 +12,9 @@ func concatenateMyString(str1, str2 string) {
 
 func main() {
 	// Call your functions here
+	message := greet()
+	fmt.Println(message)
+
 	printNameAndDepartment("Vinay", "IT")
 
 	introduce_punit("Anonymous User")
@@ -24,8 +27,8 @@ func main() {
 
 	input := "Hello, Go World!"
 
-    uppercased := toUpperCase(input)
+	uppercased := toUpperCase(input)
 
-    fmt.Printf("Original: %s\n", input)
-    fmt.Printf("Uppercase: %s\n", uppercased)
+	fmt.Printf("Original: %s\n", input)
+	fmt.Printf("Uppercase: %s\n", uppercased)
 }
