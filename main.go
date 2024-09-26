@@ -21,4 +21,11 @@ func main() {
 	favoriteMoviesAndDialogue()
 
 	concatenateMyString("go", "train")
+
+	input := "Hello, Go World!"
+
+    uppercased := toUpperCase(input)
+
+    fmt.Printf("Original: %s\n", input)
+    fmt.Printf("Uppercase: %s\n", uppercased)
 }
