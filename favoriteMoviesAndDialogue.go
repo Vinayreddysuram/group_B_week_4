@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func favoriteMoviesAndDialogue() {
-	// Favorite books
+	// Favorite movies
 	movies := []string{
 		"Batman: The Dark Knight",
 		"Pursuit of Happiness",
