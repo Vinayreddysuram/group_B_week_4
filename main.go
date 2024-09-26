@@ -2,7 +2,11 @@ package main
 
 import "fmt"
 
-func main() {
-	// call your functions here
+func PrintNameAndDepartment(name, department string) {
+	fmt.Printf("Name: %s, Department: %s\n", name, department)
+}
 
+func main() {
+	// Call your functions here
+	PrintNameAndDepartment("Vinay", "IT")
 }
